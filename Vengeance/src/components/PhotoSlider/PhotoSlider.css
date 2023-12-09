@@ -7,6 +7,7 @@
     align-items: center;
     border-radius: 20px;
     position: relative;
+    overflow: hidden;
 }
 
 .PhotoSlider span{
@@ -16,11 +17,12 @@
     align-items: center;
     color: white;
     z-index: 5;
-    /* border: 1px solid yellow; */
 }
 .PhotoSlider span:nth-child(3){
-    height: 80vh;
+    /* border: 1px solid yellow; */
+    height: 70vh;
     align-items: end;
+    font-size: 2rem;
 }
 
 .ps-img{
@@ -57,7 +59,7 @@
 }
 
 .ps-action-butt:hover{
-    backdrop-filter: blur(10px);
-    border: 2px solid black;
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(141, 141, 141, 0.733);
     border-radius: 5px;
 }
