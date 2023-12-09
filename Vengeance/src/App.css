@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+body{
+    background-color: rgb(255, 215, 255);
+    font-family: 'Afacad', sans-serif;
+}
