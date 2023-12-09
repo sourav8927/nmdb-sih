@@ -7,23 +7,33 @@ function PhotoSlider() {
         {
             id: 0,
             title: "photo 1",
-            url: "https://picsum.photos/600/400"
+            url: "../../assets/images/1.jpg"
         },
         {
             id: 1,
             title: "photo 2",
-            url: "https://picsum.photos/id/200/600/400"
+            url: "../../assets/images/2.jpg"
         },
         {
             id: 2,
             title: "photo 3",
-            url: "https://picsum.photos/id/100/600/400"
+            url: "../../assets/images/3.jpg"
+        },
+        {
+            id: 3,
+            title: "photo 4",
+            url: "../../assets/images/4.jpg"
+        },
+        {
+            id: 4,
+            title: "photo 5",
+            url: "../../assets/images/5.jpg"
         }
     ]
 
     const [imgId, setImgId] = useState(0);
     const [dir, setDir] = useState(0);
-    let imglink = corousel[imgId].url;
+    let imglink = new URL(corousel[imgId].url, import.meta.url).href;
 
     const decImgId = () => {
         setDir(-1);
