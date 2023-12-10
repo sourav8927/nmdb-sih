@@ -1,4 +1,6 @@
 import './App.css'
+import Faqs from "./components/Faqs/Faqs"
+import Socials from './components/Socials/Socials'
 import Login from './components/Login/Login';
 import Maps from './components/Maps/Maps'
 import PhotoSlider from './components/PhotoSlider/PhotoSlider';
@@ -13,8 +15,10 @@ function App() {
         <Routes>
           <Route path = "/" element={
             <>
+              <Faqs/>
               <Login />
               <PhotoSlider />
+              <Socials/>
             </>
           } />
           <Route path = "/maps" element={
