@@ -1,0 +1,8 @@
+.container{
+  height: 60vh;
+  width: 50vw;
+}
+.copyright-area .container{
+  height: 3vh;
+  width: 50vw;
+}
