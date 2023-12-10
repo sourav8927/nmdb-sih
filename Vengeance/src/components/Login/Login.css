@@ -48,6 +48,7 @@
     border-color: #fff;
 }
 
+
 .login-container form{
     background-color: #fff;
     display: flex;
@@ -72,12 +73,17 @@
 .form-container{
     position: absolute;
     top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
     height: 100%;
     transition: all 0.6s ease-in-out;
 }
 
 .sign-in{
     left: 0;
+   
     width: 50%;
     z-index: 2;
 }
