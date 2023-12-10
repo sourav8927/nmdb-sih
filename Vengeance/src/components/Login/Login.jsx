@@ -2,14 +2,12 @@ import "./Login.css"
 
 function Login() {
   return (
-    <div className="container" id="container">
+    <div className="login-container" id="container">
         <div className="form-container sign-up">
             <htmlForm>
                 <h1>Create Account</h1>
                 <div className="social-icons">
                     <a href="#" className="icon"><i className="fa-brands fa-google-plus-g"></i></a>
-                    
-                    
                 </div>
                 <span>or use your email for registeration</span>
                 <input type="text" placeholder="Name"/>
