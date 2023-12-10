@@ -1,5 +1,4 @@
 import "./Header.css"
-import React from "react";
 function Header(){
     return(
         
@@ -25,26 +24,20 @@ function Header(){
         </div>
         <nav className="nav-links">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><Link to="/">Home</Link></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Services</a></li>
-                <li><a href="#">Dashboard</a></li>
+                <li><Link to="/maps">Dashboard</Link></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <div className="search-login-user">
-            <div className="search-bar">
-                <input type="text" placeholder="Search..." />
-                <button type="button">Search</button>
-            </div>
             <div className="login-user-icons">
-                <a href="#" className="login-icon"><img className="login-img" src="img/login.png" alt="Login"/></a>
-                {/* <a href="#" className="user-icon"><img src="user-icon.png" alt="User"/></a> */}
+                <a href="#" className="login-icon"><img src="login-icon.png" alt="Login"/></a>
+                <a href="#" className="user-icon"><img src="user-icon.png" alt="User"/></a>
             </div>
-        </div>
         </div>
     </header>
-
     )
 }
 export default Header;
