@@ -1,0 +1,52 @@
+.map-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid red;
+    margin: 2rem;
+}
+
+.map-details{
+    border: 2px solid black;
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-Maps{
+    height: 500px;
+    width: 400px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: rgb(119, 153, 255);
+    /* overflow: hidden; */
+}
+.map-Maps svg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.map-Maps svg path{
+    /* fill: #97f3ff; */
+    stroke: #000000;
+    stroke-width: .8;
+}
+
+.map-Maps svg path:hover{
+    fill: violet;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.active{
+    fill: green;
+}
+
+.inactive{
+    fill: red;
+}
