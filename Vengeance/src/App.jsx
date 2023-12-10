@@ -3,8 +3,6 @@ import Faqs from "./components/Faqs/Faqs"
 import Socials from './components/Socials/Socials'
 
 function App() {
- 
-
   return (
     <>
       <Faqs/>
@@ -13,4 +11,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
