@@ -6,21 +6,61 @@ body {
     font-family: 'Arial', sans-serif;
   }
   
-  .nasha-header {
+  .main-header {
     background-color: purple;
     box-shadow: 0 2px 5px rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 50px;
+    padding: 30px 50px;
   }
   
-  .logo img {
+.mini-header{
+    background-color: rgb(82, 26, 82);
+    /* box-shadow: 0 2px 5px rgb(0, 0, 0); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+.zoom button{
+    padding: 3.5px;
+    border-radius: 9px;
+    margin: 0 4px ;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+.lang button{
+    padding: 3.5px;
+    border: none;
+    border-radius: 9px;
     max-width: 150px;
+    max-height: 150px;
+    margin-left: 13px;
+}
+
+.lang .bigbutton{
+    background-color: orange;
+    color: white;
+}
+
+.zoom-lang{
+    display: flex;
+    
+}
+
+  .logo img {
+    /* max-width: 150px; */
     height: auto;
     color: rgb(252, 252, 252);
   }
   
+.logo .logo-img{
+    width: 350px;
+    height: 70px;
+}
+
   .nav-links ul {
     list-style: none;
     display: flex;
@@ -44,18 +84,27 @@ body {
   
   .search-bar input {
     padding: 8px;
+    border-radius: 9px;
     margin-right: 10px;
     border: 1px solid #ccc;
   }
-  
+  .search-login-user{
+    display: flex;
+  }
   .search-bar button {
     padding: 8px 15px;
+    border-radius: 9px;
     background-color: #289526;
     color: #fff;
     border: none;
     cursor: pointer;
   }
   
+.login-img{
+    width: 40px;
+    height: 40px;
+}
+
   .login-user-icons a {
     margin-left: 20px;
     text-decoration: none;

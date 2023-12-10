@@ -8,7 +8,9 @@ function App() {
   return (
     <>
 <Header></Header>
+<PhotoSlider/>
 <Login/>
+<Footer/>
 
     </>
   )
