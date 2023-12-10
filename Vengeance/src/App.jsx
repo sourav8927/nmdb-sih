@@ -3,8 +3,7 @@ import Login from './components/Login/Login';
 import Maps from './components/Maps/Maps'
 import PhotoSlider from './components/PhotoSlider/PhotoSlider';
 import Footer from "./components/Footer/Footer";
-import Nav from './components/Header/Header'
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Header from './components/Header/Header';
 
 function App() {
   return (
