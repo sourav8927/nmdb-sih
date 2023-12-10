@@ -2,6 +2,7 @@ import "./Login.css"
 
 function Login() {
   return (
+
     <div className="container" id="container">
         <div className="form-container sign-up">
             <htmlForm>
@@ -51,4 +52,4 @@ function Login() {
   )
 }
 
-export default Login
+export default Login;
