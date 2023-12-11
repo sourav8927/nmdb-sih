@@ -1,4 +1,7 @@
 import "./Header.css"
+import React from "react";
+import { Link } from "react-router-dom";
+
 function Header(){
     return(
         
@@ -33,9 +36,10 @@ function Header(){
         </nav>
         <div className="search-login-user">
             <div className="login-user-icons">
-                <a href="#" className="login-icon"><img src="login-icon.png" alt="Login"/></a>
+                <Link to="/login" className="login-icon"><img src="login-icon.png" alt="Login"/></Link>
                 <a href="#" className="user-icon"><img src="user-icon.png" alt="User"/></a>
             </div>
+        </div>
         </div>
     </header>
     )

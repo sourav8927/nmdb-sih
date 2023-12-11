@@ -41,19 +41,28 @@ import ChooseUser from './components/ChooseUser/ChooseUser';
 
 function App() {
   return (
-    <BrowserRouter>
-      <>
-        <Header />
+    <>
+      <BrowserRouter>
+      <Header />
         <Routes>
-          <Route path="/" element={<ChooseUser />} />
-          <Route path="/login" element={<Login />} />
-          {/* Add more routes for other components */}
-        </Routes>
-        <PhotoSlider />
-        <Footer />
-      </>
-    </BrowserRouter>
-  );
+          <Route path = "/" element={
+            <>
+              <PhotoSlider />
+              <Faqs/>
+              <Socials/>
+            </>
+          } />
+          <Route path = "/maps" element={
+            <Maps />
+          }/>
+          <Route path = "/login" element={
+            <Login />
+          }/>
+      </Routes>
+      <Footer />
+      </BrowserRouter>
+    </>
+  )
 }
 
 export default App;
