@@ -1,7 +1,7 @@
 import React from 'react'
-import Iframe from 'react-iframe'
+
 export default function Socials() {
- 
+
   return (
     <>
         <div className='s-youtube'>
@@ -17,6 +17,11 @@ export default function Socials() {
         <div className='s-insta'>
         <iframe src="https://www.instagram.com/nashamuktbharatabhiyaan/embed/" width="500" height="600" style={{border:'none', overflow:'hidden'}} scrolling="no" frameBorder="0"    allowFullScreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
+      <div className='s-youtube'>
+        <iframe
+          width="560" height="315" src="https://www.youtube.com/embed/Fd5clV9SzRE?si=0qWugdN1XKdhCmh6" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
+        </iframe>
+      </div>
     </>
   )
 }
