@@ -12,7 +12,7 @@ import ChooseUser from './components/ChooseUser/ChooseUser';
 
 function App() {
   return (
-    <>
+    <div className='app'>
       <BrowserRouter>
       <Header />
         <Routes>
@@ -26,13 +26,16 @@ function App() {
           <Route path = "/maps" element={
             <Maps />
           }/>
-          <Route path = "/login" element={
+          <Route path = "/LoginUser" element={
             <Login />
+          }/>
+          <Route path = "/Cuser" element={
+            <ChooseUser />
           }/>
       </Routes>
       <Footer />
       </BrowserRouter>
-    </>
+    </div>
   )
 }
 
