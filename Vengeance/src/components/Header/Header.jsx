@@ -24,8 +24,7 @@ function Header(){
                     <div className="logo">
                         <img className="logo-img" src="img/logo.png" alt="Logo" />
                     </div>
-                </div>
-                <nav className="nav-links">
+                    <nav className="nav-links">
                     <ul>
                         <li><Link to="/">Home</Link></li>
                         <li><a href="#">About Us</a></li>
@@ -35,11 +34,18 @@ function Header(){
                     </ul>
                 </nav>
                 <div className="search-login-user">
-                    <div className="login-user-icons">
-                        <a href="#" className="login-icon"><img src="login-icon.png" alt="Login"/></a>
-                        <a href="#" className="user-icon"><img src="user-icon.png" alt="User"/></a>
+                <div className="search-bar">
+                <input type="text" placeholder="Search..." />
+                <button type="button">Search</button>
+                </div>
+                    <div className="login-icons">
+                        <a href="#" className="login-icon"><img src="img/login.png" alt="Login"/></a>
+                        {/* <a href="#" className="user-icon"><img src="user-icon.png" alt="User"/></a> */}
                     </div>
                 </div>
+                </div>
+                
+                
             </header>
     </>
     )

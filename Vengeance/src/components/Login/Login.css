@@ -7,6 +7,10 @@
     position: relative;
     overflow: hidden;
     width: 768px;
+    margin-top: 100px ;
+    margin-left: 400px;
+    margin-bottom: 100px;
+    
     max-width: 100%;
     min-height: 480px;
 }

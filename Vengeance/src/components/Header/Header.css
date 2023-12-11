@@ -1,13 +1,13 @@
 /* Add this to your custom stylesheet */
-
+/* 
 body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-  }
+  } */
   
   .main-header {
-    background-color: purple;
+    background-color: #BF40BF;
     box-shadow: 0 2px 5px rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
@@ -16,7 +16,7 @@ body {
   }
   
 .mini-header{
-    background-color: rgb(82, 26, 82);
+    background-color: rgb(128, 65, 128);
     /* box-shadow: 0 2px 5px rgb(0, 0, 0); */
     display: flex;
     justify-content: space-between;
@@ -57,7 +57,7 @@ body {
   }
   
 .logo .logo-img{
-    width: 350px;
+    width: auto;
     height: 70px;
 }
 
@@ -100,7 +100,7 @@ body {
     cursor: pointer;
   }
   
-.login-img{
+.login-icons img{
     width: 40px;
     height: 40px;
 }
