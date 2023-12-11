@@ -7,12 +7,15 @@ import Maps from './components/Maps/Maps';
 import PhotoSlider from './components/PhotoSlider/PhotoSlider';
 import Footer from "./components/Footer/Footer";
 import Aboutus from "./components/Aboutus/Aboutus";
+import Header from "./components/Header/Header";
+import ChooseUser from "./components/ChooseUser/ChooseUser";
+
 
 function App() {
   return (
-    <>
-      <Aboutus />
-    </>
+    // <>
+    //   <Aboutus />
+    // </>
     <div className='app'>
       <BrowserRouter>
       <Header />
@@ -20,8 +23,9 @@ function App() {
           <Route path = "/" element={
             <>
               <PhotoSlider />
-              <Faqs/>
+              <Aboutus/>
               <Socials/>
+              <Faqs/>
             </>
           } />
           <Route path = "/maps" element={
