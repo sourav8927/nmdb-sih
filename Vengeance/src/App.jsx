@@ -13,23 +13,24 @@ import ChooseUser from './components/ChooseUser/ChooseUser';
 function App() {
   return (
     <>
-    <BrowserRouter>
-        <Header />
+      <BrowserRouter>
+      <Header />
         <Routes>
-          <Route path="/ChooseUser" element={<ChooseUser />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/" element={
+          <Route path = "/" element={
             <>
               <PhotoSlider />
-              <Faqs />
-              <Socials />
+              <Faqs/>
+              <Socials/>
             </>
           } />
-          <Route path="/maps" element={
+          <Route path = "/maps" element={
             <Maps />
-          } />
-        </Routes>
-        <Footer />
+          }/>
+          <Route path = "/login" element={
+            <Login />
+          }/>
+      </Routes>
+      <Footer />
       </BrowserRouter>
     </>
   )
