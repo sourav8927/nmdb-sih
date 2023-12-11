@@ -39,7 +39,7 @@ function Header(){
                 <button type="button">Search</button>
                 </div>
                     <div className="login-icons">
-                        <a href="#" className="login-icon"><img src="img/login.png" alt="Login"/></a>
+                        <Link to='LoginUser' className="login-icon"><img src="img/login.png" alt="Login"/></Link>
                         {/* <a href="#" className="user-icon"><img src="user-icon.png" alt="User"/></a> */}
                     </div>
                 </div>
