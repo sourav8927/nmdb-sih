@@ -45,13 +45,15 @@ function Header() {
           </ul>
         </nav>
         <div className="search-login-user">
-          <div className="login-user-icons">
+        <div class="search-bar">
+        <input type="text" placeholder="Search..." />
+        <button type="button">Search</button>
+        </div>
+          <div className="login-icons">
             <Link to="/login" className="login-icon">
-              <img src="" alt="Login" />
+              <img src="img/login.png" alt="Login" />
             </Link>
-            <a href="#" className="user-icon">
-              <img src="user-icon.png" alt="User" />
-            </a>
+            
           </div>
         </div>
       </div>
