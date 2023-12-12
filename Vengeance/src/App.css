@@ -1,3 +1,6 @@
-body{
+.app{
+    background-color:#ebc5eb;
+    /* background-color:black; */
+    color: #331A00;
     font-family: 'Afacad', sans-serif;
 }

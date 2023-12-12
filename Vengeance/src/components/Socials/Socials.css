@@ -1,3 +1,72 @@
 .Socials{
-    
+    /* background-color: 	#d88cd8; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.Socials-head{
+    /* background-color: 	#d88cd8; */
+    display: flex;
+    justify-content: center;
+}
+
+.Socials-head h1{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0;
+    color: #331A00;
+    border-bottom: 2px solid ;
+    width: max-content;
+    align-self: center;
+}
+
+.s-youtube{
+    display: flex;
+}
+
+.yt-tag{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    width: 3rem;
+    border-radius: 0px 20px 20px 0px ;
+    color: antiquewhite
+}
+
+.fb-tag{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    width: 3rem;
+    border-radius: 0px 20px 20px 0px ;
+    color: antiquewhite
+}
+.s-facebook{
+    display: flex;
+}
+
+.ig-tag{
+    background-color: #bc2a8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    width: 3rem;
+    border-radius: 0px 20px 20px 0px ;
+    color: antiquewhite
+}
+
+.s-insta{
+    display: flex;
 }
