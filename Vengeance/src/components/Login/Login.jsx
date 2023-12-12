@@ -2,9 +2,6 @@ import "./Login.css"
 
 function Login() {
   return (
-
-
-
     <div className="login-container" id="container">
         <div className="form-container sign-up">
             <form>
@@ -48,7 +45,7 @@ function Login() {
                 </div>
             </div>
         </div>
-        </div>
+    </div>
   )
 }
 
