@@ -1,7 +1,17 @@
-import "./Header.css"
+import "./Header.css";
+import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import { RxHamburgerMenu } from "react-icons/rx";
+// import LoginPng from "./img/login.png";
 
 function Header(){
+
+    const [showMenu, setShowMenu] = useState(false);
+  const hideMenu = ()=>{
+    setShowMenu(false);
+  }
+
     return(
         <>
             <header className="header">
