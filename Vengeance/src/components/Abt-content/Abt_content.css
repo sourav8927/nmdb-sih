@@ -29,3 +29,24 @@ enable-background:new 0 0 489 489;
 .sp{
   justify-content: space-around;
 }
+
+
+@media (max-width: 912px) {
+  .row{
+    margin-left: -40px;
+    margin-right: 50px;
+    
+  }
+  .container my-5{
+    padding: 0;
+  }
+}
+
+@media (max-width: 880px) {
+  .lineh{
+    line-height: 1.6em;
+  }
+}
+@media (max-width: 880px) {
+  
+}

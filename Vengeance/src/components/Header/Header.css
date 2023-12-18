@@ -116,4 +116,15 @@
     width: auto;
     height: 35px;
   }
+
+  .mini-header, .main-header{
+    font-size: .9em;
+  }
+}
+
+@media (max-width: px) {
+  .logo .logo-img{
+    width: auto;
+    height: 35px;
+  }
 }

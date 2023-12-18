@@ -164,3 +164,40 @@ ul {
   font-size: 14px;
   color: #0c0908;
 }
+
+@media (max-width: 1372px) {
+  .container{
+    margin-right: 270px;
+  }
+}
+
+@media (max-width: 1296px) {
+  .container{
+    margin-left: 100px;
+  }
+
+  .subscribe-form img{
+    width: 23em;
+    height: 20em;
+    margin-left: -40px;
+  }
+}
+
+@media (max-width: 1264px) {
+  .container{
+    margin-left: 30px;
+  }
+}
+@media (max-width: 1036px) {
+  .subscribe-form img{
+    width: 19em;
+    height: 16em;
+  }
+}
+
+@media (max-width: 991px) {
+  .container{
+    margin-left: 160px;
+    margin-right: 30px;
+  }
+}
