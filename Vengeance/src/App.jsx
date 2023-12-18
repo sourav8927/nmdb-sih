@@ -37,6 +37,9 @@ function App() {
           <Route path = "/Cuser" element={
             <ChooseUser />
           }/>
+          <Route path ="/AboutUs" element={
+            <Aboutus />
+          }/>
       </Routes>
       <Footer />
       </BrowserRouter>
