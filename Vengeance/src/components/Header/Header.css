@@ -103,6 +103,17 @@
     color: #ffffff;
   }
 
-@media (min-width) {
-  
+@media (max-width: 1130px) {
+  .logo .logo-img{
+    width: auto;
+    height: 50px;
+  }
+}
+
+
+@media (max-width: 1026px) {
+  .logo .logo-img{
+    width: auto;
+    height: 35px;
+  }
 }
