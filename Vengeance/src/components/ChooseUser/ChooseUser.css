@@ -1,13 +1,4 @@
 .chooseUserDiv {
-    /* background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    height: 400px;
-    justify-content: center;
-    width: 100%;
-    text-align: center; */
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
@@ -16,30 +7,50 @@
     position: relative;
     overflow: hidden;
     width: 768px;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     max-width: 100%;
     min-height: 480px;
 }
-.CUtoggle{
 
+.cu-buttons-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem 2rem;
+}
+
+.cu-buttons-div-span{
+    /* background-color: red; */
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.cu-buttons-div-span p{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.CUtoggle{
     width: 100%;
     overflow: hidden;
     border-radius: 8px 0px 80px 80px;
     background-color: #BF40BF;
-    height: 50%;
+    height: max-content;
 }
 .Chooseh2 {
-    margin-top: 100px;
-    font-size: 45px;
+    margin-top: 80px;
+    font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     color: #fff;
 }
 
  .Adminbtn, .Ngobtn, .Citizenbtn {
     background-color: #512da8;
     color: #fff;
-    font-size: 12px;
-    margin-right:60px ;
+    font-size: 1.4rem;
+    margin-right:40px ;
     margin-left: 40px;
     padding: 10px 45px;
     border: 1px solid transparent;
@@ -47,11 +58,11 @@
     font-weight: 600;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    margin-top: 50px;
+    margin-top: 0px;
     cursor: pointer;
 }
 
-.Adminbtn .Ngobtn .Citizenbtn button:hover {
+.Adminbtn:hover, .Ngobtn:hover, .Citizenbtn:hover {
     background-color: #45a049;
 }
 

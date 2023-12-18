@@ -1,4 +1,4 @@
-import './App.css';;
+import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Faqs from './components/Faqs/Faqs';
 import Socials from './components/Socials/Socials';
@@ -9,6 +9,7 @@ import Footer from "./components/Footer/Footer";
 import Aboutus from "./components/Aboutus/Aboutus";
 import Header from "./components/Header/Header";
 import ChooseUser from "./components/ChooseUser/ChooseUser";
+import Register from './components/Register/Register';
 
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
           }/>
           <Route path = "/LoginUser" element={
             <Login />
+          }/>
+          <Route path="/registerPage" element={
+            <Register/>
           }/>
           <Route path = "/Cuser" element={
             <ChooseUser />
