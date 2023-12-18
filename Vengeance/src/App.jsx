@@ -9,6 +9,7 @@ import Footer from "./components/Footer/Footer";
 import Aboutus from "./components/Aboutus/Aboutus";
 import Header from "./components/Header/Header";
 import ChooseUser from "./components/ChooseUser/ChooseUser";
+import Dashboard from './components/Dashboard/Dashboard';
 import Register from './components/Register/Register';
 
 
@@ -29,8 +30,11 @@ function App() {
               <Faqs/>
             </>
           } />
-          <Route path = "/maps" element={
+          <Route path = "/Dashboard" element={
+            <>
             <Maps />
+            <Dashboard />
+            </>
           }/>
           <Route path = "/LoginUser" element={
             <Login />
