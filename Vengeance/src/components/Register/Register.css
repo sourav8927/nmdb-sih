@@ -1,39 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-.Login-container{
+.Register-container{
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     position: relative;
     overflow: hidden;
-    width: 400px;
+    width: 600px;
     margin-top: 100px ;
     margin-left: 550px;
     margin-bottom: 100px;
     border: 2px solid #BF40BF;
     border-radius: 10%;
-    min-height: 480px;
+    /* min-height: 480px;
+    max-height: 600px; */
+    height: 600px;
 }
 
-.Login-container p{
+.Register-container p{
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.3px;
     margin: 20px 0;
 }
 
-.Login-container span{
+.Register-container span{
     font-size: 12px;
 }
 
-.Login-container a{
+.Register-container a{
     color: #333;
     font-size: 13px;
     text-decoration: none;
     margin: 15px 0 10px;
 }
 
-.Login-container button{
+.Register-container button{
     background-color: #BF40BF;
     color: #fff;
     font-size: 12px;
@@ -47,13 +49,13 @@
     cursor: pointer;
 }
 
-.Login-container button.hidden{
+.Register-container button.hidden{
     background-color: transparent;
     border-color: #fff;
 }
 
 
-.Login-container form{
+.Register-container form{
     background-color:#fff;
     display: flex;
     align-items: center;
@@ -64,7 +66,7 @@
     height: 100%;
 }
 
-.Login-container input{
+.Register-container input{
     background-color: #eee;
     border: none;
     margin: 8px 0;
@@ -75,7 +77,7 @@
     outline: none;
 }
 
-.form-container{
+.Regform-container{
     background-color:  #fff;
     position: absolute;
     top: 0;
@@ -88,7 +90,7 @@
     transition: all 0.6s ease-in-out;
 }
 
-.sign-in{
+.Regsign-in{
     left: 0;
    
     width: 100%;
@@ -124,11 +126,11 @@
     }
 } */
 
-.social-icons{
+.Regsocial-icons{
     margin: 20px 0;
 }
 
-.social-icons p{
+.Regsocial-icons p{
     border: 1px solid #BF40BF;
     border-radius: 20%;
     display: inline-flex;
@@ -205,10 +207,10 @@
     transform: translateX(200%);
 }
 
-.signinbtn:hover{
+.Regbtn:hover{
     background-color: #512da8;
 }
-.Login-p{
+.register-p{
     display: inline;
     height: auto;
     margin-left: 0px;
