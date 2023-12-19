@@ -14,6 +14,7 @@ import LocateCenter from './components/LocateCenter/LocateCenter';
 import NgoRegistration from './components/NgoRegistration/NgoRegistration';
 import NgoDashBoard from './components/NgoDashBoard/NgoDashBoard';
 import userlandingpage from './components/User Landing Page/user-landing-page';
+import Events from './components/Events/Events';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path = "/" element={
             <>
               <PhotoSlider />
+              <Events />
               <Aboutus/>
               <Socials/>
               <Faqs/>
