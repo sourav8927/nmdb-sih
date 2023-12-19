@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import json from './indiaStatesAndDistricts.json'
+import "../LocateCenter/LocateCenter.css";
 
 function LocateCenter() {
 
@@ -20,16 +21,27 @@ function LocateCenter() {
       <center><h1>Locate center</h1></center>
       <div className="lc">
         <div className="lc-state">
-          <p>Select your state</p>
-          <select>
+          <p className='lc-p'>Select your state</p>
+          <select className='opt'>
             <option></option>
           </select>
         </div>
 
-        <div className="lc-dist">
-          o
+        <div className="lc-state">
+          <p className='lc-p'>Select your district</p>
+          <select className='opt'>
+            <option></option>
+          </select>
         </div>
       </div>
+       
+      <div className="center-details">
+        <div className="center1">
+          <p>Center Name</p>
+          <p>Address</p>
+        </div>
+      </div>
+    
     </div>
   )
 

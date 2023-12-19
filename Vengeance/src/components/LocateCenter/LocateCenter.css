@@ -1,0 +1,35 @@
+.lc-p{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.lc-state{
+    /* display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    justify-content: space-evenly; */
+    display: flex;
+    justify-content: center;
+}
+.opt{
+    height: 30px;
+    width: 160px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.center1{
+    border: 2px solid black;
+    border-radius: 2rem;
+    width: 45vw;
+    height: 20vh;
+    /* justify-content: center; */
+    margin-left: 450px;
+    margin-bottom: 25px;
+}
+.lc{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 3rem; */
+    flex-direction: column;
+    margin-left: 40px;
+}
