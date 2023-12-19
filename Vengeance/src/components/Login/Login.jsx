@@ -7,25 +7,20 @@ function Login() {
 
   return (
     <div className="Login-container" id="container">
-        <div className="form-container sign-in">
-                    <form>
-                        <h1>Sign In</h1>
-                        <div className="social-icons">
-                            <p className=""><FcGoogle /></p>
-                        </div>
-                            <span>or use your email password</span>
-                            <input type="email" placeholder="Email"/>
-                            <input type="password" placeholder="Password"/>
-                            <a href="#">Don't have account?<Link to="/registerPage"> Register</Link> 
-                            <p className="Login-p">
-                                <WiDirectionUpRight />
-                             </p>
-                                
-                            </a>
-                            <button className="signinbtn">Sign In</button>
-                    </form>
-               </div>
-            </div>
+      <div className="form-container sign-in">
+        <form>
+          <h1>Sign In</h1>
+          <span>Using your Email ID and Password</span>
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button className="signinbtn">Sign In</button>
+          <div className="dont-have-acc">
+            <p>Don't have account? &nbsp;</p>
+            <Link to="/registerPage"><p>Register Yourself<WiDirectionUpRight /></p></Link>
+          </div>
+        </form>
+      </div>
+    </div>
   )
 }
 
