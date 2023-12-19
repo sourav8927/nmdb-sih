@@ -1,5 +1,5 @@
 .main-header {
-    background-color: purple;
+    background-color:  #A020F0;
     box-shadow: 0 2px 5px rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
@@ -8,7 +8,7 @@
   }
   
 .mini-header{
-    background-color: rgb(82, 26, 82);
+    background-color: #300947;
     /* box-shadow: 0 2px 5px rgb(0, 0, 0); */
     display: flex;
     justify-content: space-between;
