@@ -1,0 +1,39 @@
+.event-head{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding: 1rem;
+    font-weight:900;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.event-container{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: row; */
+    margin-bottom: 2rem;
+}
+
+.event-title{
+    background-color: aqua;
+    height: 20rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 0.7rem;
+    border-radius: 2rem;
+
+}
+
+.e-button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.event-button{
+    border-radius: 1rem;
+}

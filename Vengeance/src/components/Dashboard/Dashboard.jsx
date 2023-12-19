@@ -418,17 +418,19 @@ export default function Dashboard() {
           <h1 className="guidelines-head">Guidelines</h1>
           <ol className="text">
             <div className="lorem">
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.. </li>
-            <li>
-              Curabitur placerat leo facilisis erat tincidunt, ut lacinia ipsum
-              hendrerit..{" "}
-            </li>
-            <li>
-              Fusce eget justo ac nisi volutpat malesuada at sit amet felis..{" "}
-            </li>
-            <li>
-              Donec sit amet urna commodo, eleifend ligula ac, suscipit erat.{" "}
-            </li>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit..{" "}
+              </li>
+              <li>
+                Curabitur placerat leo facilisis erat tincidunt, ut lacinia
+                ipsum hendrerit..{" "}
+              </li>
+              <li>
+                Fusce eget justo ac nisi volutpat malesuada at sit amet felis..{" "}
+              </li>
+              <li>
+                Donec sit amet urna commodo, eleifend ligula ac, suscipit erat.{" "}
+              </li>
             </div>
             {showButton ? (
               <>
@@ -447,34 +449,53 @@ export default function Dashboard() {
                   Donec sit amet urna commodo, eleifend ligula ac, suscipit
                   erat.{" "}
                 </li>
-                
+
                 <div className="dashboard-vm-button">
-                  <button className="g-button"
+                  <button
+                    className="g-button"
                     onClick={function () {
                       return setShowButton(false);
                     }}
                   >
-                  Show Less
+                    Show Less
                   </button>
-                  </div>
-                  </>
-                    ) : (
-                  <>
-                    <div className="dashboard-vm-button">
-                      <button className="g-button"
-                        onClick={function () {
-                          return setShowButton(true);
-                        }}
-                      >
-                        Show More
-                </button>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="dashboard-vm-button">
+                  <button
+                    className="g-button"
+                    onClick={function () {
+                      return setShowButton(true);
+                    }}
+                  >
+                    Show More
+                  </button>
                 </div>
               </>
             )}
           </ol>
         </div>
-        <div className="d-stats">statistics</div>
-        <div className="c-name">Center Names</div>
+        <div className="d-info">
+          <div className="d-stats">
+            <div className="stat">
+            Statistics
+            </div>
+            <div className="para">
+          <p className="g-para">
+              Donec sit amet urna commodo, eleifend ligula ac, suscipit erat.
+            </p>
+            </div>
+          </div>
+          
+          <div className="c-name">Center Names
+          <p className="g-para">
+              Donec sit amet urna commodo, eleifend ligula ac, suscipit erat.
+            </p>
+          </div>
+          
+        </div>
       </div>
       <div></div>
     </>
