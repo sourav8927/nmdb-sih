@@ -1,0 +1,94 @@
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    margin:100px 50px 100px 50px;
+   
+  }
+  
+  .form-container {
+    width: 30%;
+    padding: 20px;
+    margin-top: 50px;
+    height: 35%;
+    display: flex;
+    position: relative;
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container label {
+    margin-bottom: 8px;
+  }
+  
+  .form-container input {
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  .form-container button {
+    background-color:#A020F0 ;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color:#d399f7 ;
+  }
+  
+  .table-container {
+    width: 60%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  .editBtn{
+    background-color: #A020F0;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  .deleteBtn {
+    background-color: #f44336;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  button:hover {
+    background-color: #f16161;
+  }
+  
