@@ -16,7 +16,7 @@ function Login() {
                             <span>or use your email password</span>
                             <input type="email" placeholder="Email"/>
                             <input type="password" placeholder="Password"/>
-                            <a href="#">Don't have account?<Link to="/registerPage"> Register</Link> 
+                            <a href="#">Dont have account?<Link to="/registerPage"> Register</Link> 
                             <p className="Login-p">
                                 <WiDirectionUpRight />
                              </p>

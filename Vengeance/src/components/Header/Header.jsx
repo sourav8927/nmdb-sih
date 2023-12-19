@@ -50,7 +50,7 @@ function Header() {
                         <div className="login-icons">
                             <span>
                             </span>
-                            <Link to='LoginUser' className="login-icon"><img src="img/login.png" alt="Login" /></Link>
+                            <Link to='Cuser' className="login-icon"><img src="img/login.png" alt="Login" /></Link>
                             {/* <a href="#" className="user-icon"><img src="user-icon.png" alt="User"/></a> */}
                         </div>
                     </div>

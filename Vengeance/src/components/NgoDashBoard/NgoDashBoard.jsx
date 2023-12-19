@@ -1,10 +1,16 @@
 import "./NgoDashBoard.css"
 
+
 function NgoDashBoard(){
+   
+  
    return(
-    <div>
-        <h1>hello</h1>
+     <div className="ngoDash">
+      <h2>Welcome to your Dashboard</h2>
+        <div className="changeDash">
+           
         </div>
+     </div>
    )
 }
 export default NgoDashBoard;
