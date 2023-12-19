@@ -19,7 +19,9 @@ function ChooseUser() {
                 </span>
                 <span className='cu-buttons-div-span'>
                     <p><FaBuildingNgo /></p>
+                    <Link to="/NgoRegisterPage">
                     <button className='Ngobtn'>NGO</button>
+                    </Link>
                 </span>
                 <span className='cu-buttons-div-span'>
                     <p><MdAdminPanelSettings /></p>

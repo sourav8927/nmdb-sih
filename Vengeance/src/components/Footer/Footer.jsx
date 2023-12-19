@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Footer.css";
 import Ashok from "../../assets/logo/ashok_stombh.png";
 import Appimg from "../../assets/images/Nmba_app.jpg";
+import { Link } from "react-router-dom";
 function Footer()
 {
     return(
@@ -40,16 +41,16 @@ function Footer()
                                 <h3>Useful Links</h3>
                             </div>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">portfolio</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Expert Team</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Latest News</a></li>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/locateCentre">Locate Center</Link></li>
+                               <li><Link to="">Servies</Link></li>
+                                <li><Link to="/Dashboard">Dashboard</Link></li>
+                               <li><Link to="">Contact</Link></li>
+                               <li><Link to="">About Us</Link></li>
+                               <li><Link to="">Socials</Link></li>
+                               <li><Link to="">FAQ</Link></li>
+
+                              
                             </ul>
                         </div>
                     </div>

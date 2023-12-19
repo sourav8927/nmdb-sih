@@ -15,7 +15,8 @@ function Register() {
                             <p className=""><FcGoogle /></p>
                         </div>
                             <span>or use your email password</span>
-
+                            <div className="input-container">
+                        
                             <div className="input-box">
                               <label>Name</label>
                                <input type="text" placeholder="Enter your name" />
@@ -51,9 +52,9 @@ function Register() {
                             <label >Confirm Password</label>
                             <input type="password" placeholder="Confirm your password"/>
                             </div>
+          </div>
                             
-                            
-                            <a href="#">Already registered ?<Link to="./LoginUser"> Login</Link> 
+                            <a href="#">Already registered ?<Link to="/LoginUser"> Login</Link> 
                             <p className="register-p">
                                 <WiDirectionUpRight />
                              </p>

@@ -11,13 +11,13 @@ import Header from "./components/Header/Header";
 import ChooseUser from "./components/ChooseUser/ChooseUser";
 import Dashboard from './components/Dashboard/Dashboard';
 import Register from './components/Register/Register';
+import LocateCenter from './components/LocateCenter/LocateCenter';
+import NgoRegistration from './components/NgoRegistration/NgoRegistration';
+import NgoDashBoard from './components/NgoDashBoard/NgoDashBoard';
 
 
 function App() {
   return (
-    // <>
-    //   <Aboutus />
-    // </>
     <div className='app'>
       <BrowserRouter>
       <Header />
@@ -32,15 +32,23 @@ function App() {
           } />
           <Route path = "/Dashboard" element={
             <>
-            <Maps />
             <Dashboard />
             </>
           }/>
           <Route path = "/LoginUser" element={
             <Login />
           }/>
+          <Route path = "/locateCentre" element={
+           <LocateCenter />
+          }/>
           <Route path="/registerPage" element={
             <Register/>
+          }/>
+          <Route path="/NgoRegisterPage" element={
+            <NgoRegistration/>
+          }/>
+          <Route path="/NgoDashBoard" element={
+            <NgoDashBoard/>
           }/>
           <Route path = "/Cuser" element={
             <ChooseUser />

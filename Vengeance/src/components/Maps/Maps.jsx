@@ -7,9 +7,6 @@ function Maps() {
 
   return (
     <div className="map-container">
-      <div className='map-details'>
-        <h1>{state}</h1>
-      </div>
       <div className='map-Maps'>
         <svg baseProfile="tiny"
           // height="auto"

@@ -4,6 +4,8 @@
    font-weight: 600;
    margin: 10px;
    padding: 10px;
+   position: relative;
+   
    
 }
 .Register-container{
@@ -237,3 +239,8 @@
     max-width: 100%;
     min-height: 480px;
 } */
+
+.input-box{
+    display: flex;
+    justify-content: space-between;
+}

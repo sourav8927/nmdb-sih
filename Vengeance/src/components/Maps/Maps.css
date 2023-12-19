@@ -1,8 +1,17 @@
+.dashboard-head{
+    padding: 2rem;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .map-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 2rem;
 }
 
@@ -23,12 +32,12 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    background: rgb(119, 153, 255);
     /* overflow: hidden; */
 }
 .map-Maps svg {
     max-width: 100%;
     max-height: 100%;
+    filter: drop-shadow(0px 0px 5px black);
 }
 
 .map-Maps svg path{
@@ -38,13 +47,15 @@
 }
 
 .map-Maps svg path:hover{
-    fill: violet;
+    fill: rgb(0, 137, 98);
     transition: 0.6s;
     cursor: pointer;
 }
 
 .active{
     fill: green;
+    z-index: 50;
+    filter: drop-shadow(2px 2px 10px black);
 }
 
 .inactive{
