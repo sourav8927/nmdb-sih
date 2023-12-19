@@ -14,6 +14,7 @@ import Register from './components/Register/Register';
 import LocateCenter from './components/LocateCenter/LocateCenter';
 import NgoRegistration from './components/NgoRegistration/NgoRegistration';
 import NgoDashBoard from './components/NgoDashBoard/NgoDashBoard';
+import userlandingpage from './components/User Landing Page/user-landing-page';
 
 
 function App() {
@@ -55,6 +56,9 @@ function App() {
           }/>
           <Route path ="/AboutUs" element={
             <Aboutus />
+          }/>
+          <Route path = "/UsderLandingPage" element={
+            <Login />
           }/>
       </Routes>
       <Footer />
