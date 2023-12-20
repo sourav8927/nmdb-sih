@@ -16,6 +16,7 @@ import NgoDashBoard from './components/NgoDashBoard/NgoDashBoard';
 import userlandingpage from './components/User Landing Page/user-landing-page';
 import Events from './components/Events/Events';
 import NgoDashActions from './components/NgoDashActions/NgoDashActions';
+import Services from './components/Services/Services';
 
 function App() {
   return (
@@ -63,6 +64,9 @@ function App() {
           }/>
           <Route path = "/UserLandingPage" element={
             <Login />
+          }/>
+          <Route path = "/Services" element={
+            <Services />
           }/>
       </Routes>
       <Footer />
