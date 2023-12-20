@@ -1,0 +1,21 @@
+.dashbody{
+    display: flex;
+}
+
+.dashupperbody{
+    background-color: darkkhaki;
+    width: 90vw;
+    height: 20vh;
+}
+.dashlowerbody{
+    background-color: rgb(107, 189, 156);
+    width: 90vw;
+    height: 20vh;
+}
+
+.outercontainer{
+    display: flex;
+}
+.container{
+    display: flex;
+}
