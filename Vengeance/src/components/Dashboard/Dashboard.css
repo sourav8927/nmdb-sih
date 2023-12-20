@@ -1,3 +1,10 @@
+.dashboard-head{
+    border-bottom: 2px solid black;
+    width: max-content;
+    text-align: center;
+    margin: auto;
+}
+
 .dashboard{
     display: flex;
     justify-content: center;
@@ -117,6 +124,48 @@
     background-color: rgb(200, 50, 50);
     border: 1px solid black;
   
+}
+
+.usp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.usp h2{
+    font-size: 3rem;
+    border-bottom: 2px solid black;
+}
+
+.usp-span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.usp-span span{
+    border: 2px solid #c7f040;
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.582);
+    color: black;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.301);
+    font-size: 1.5rem;
+    background-color: #97fa8c;
+}
+
+.usp-span span p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .guideline{

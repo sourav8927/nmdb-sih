@@ -50,8 +50,8 @@ function NgoDashActions(){
   <div className="form-container">
   
     <form onSubmit={handleSubmit}>
-    <h3>Enter Cityzen</h3>
-      <label htmlFor="name">Cityzen Name:</label>
+    <h3>Enter Citizen</h3>
+      <label htmlFor="name">Citizen Name:</label>
       <input
         type="text"
         id="name"
@@ -86,7 +86,7 @@ function NgoDashActions(){
   </div>
 
   <div className="table-container">
-    <h3>Cityzen List</h3>
+    <h3>Citizen List</h3>
     <table>
       <thead>
         <tr>

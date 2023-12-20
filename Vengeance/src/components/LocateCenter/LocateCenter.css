@@ -17,6 +17,11 @@
     margin-top: 15px;
     margin-left: 50px;
 }
+
+.opt select{
+    color: black;
+}
+
 .center1{
     border: 2px solid black;
     border-radius: 2rem;
