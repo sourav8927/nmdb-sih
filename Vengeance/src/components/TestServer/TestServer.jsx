@@ -8,7 +8,8 @@ function TestServer() {
         name : "",
         age: 0,
         gender: "",
-        addType: ""
+        addType: "",
+        state: ""
     })
 
     const handleChange = (e) => {
@@ -19,7 +20,7 @@ function TestServer() {
         event.preventDefault();
 
         try {
-            const response = await axios.post("https:172.16.14.56:3000/user/add_ben", formData);
+            const response = await axios.post("http://172.16.14.56:3000/user/add_ben", formData);
             console.log('Data submitted successfully:', response.data);
             // Handle successful submission (e.g., clear form, show success message)
         } catch (err) {
@@ -70,6 +71,15 @@ function TestServer() {
                         id="addType"
                         name="addType"
                         value={formData.addType}
+                        onChange={handleChange}
+                        required
+                    />
+                    <label htmlFor="state">State:</label>
+                    <input
+                        type="text"
+                        id="state"
+                        name="state"
+                        value={formData.state}
                         onChange={handleChange}
                         required
                     />
