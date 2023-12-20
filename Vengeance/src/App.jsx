@@ -29,7 +29,6 @@ function App() {
         <Routes>
           <Route path = "/" element={
             <>
-              <AdmDashboard />
               <PhotoSlider />
               <Events />
               <Aboutus/>

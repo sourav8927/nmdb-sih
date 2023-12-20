@@ -17,7 +17,7 @@ function LocateCenter() {
     setAvailableState(stateData);
   }
   return (
-    <div>
+    <div className='LClc'>
       <center>
         <h1>Locate center</h1>
       </center>
