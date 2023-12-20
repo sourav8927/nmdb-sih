@@ -826,14 +826,26 @@ export default function Dashboard() {
         <h2>Analytics</h2>
       </div>
         <div className="Analytics">
-          <span><p>Active Cases:</p><p>594949</p> </span>
-          <span><p>Recovered Cases:</p> <p>68468</p> </span>
-          <span>Deaths: <p>541687</p></span>
+          <span><p>Active Cases:</p><p>30+ Crores</p> </span>
+          <span><p>Rehabilitated Cases:</p> <p>40,000</p> </span>
+          <span>Deaths (per year): <p> 5,40,000+</p></span>
         </div>
+
+      <div className="usp">
+        <div className="usp-head">
+          <h2>What we have done</h2>
+        </div>
+        <div className="usp-span">
+          <span><p>Reached 700+ Nasha Mukti Kendras</p></span>
+          <span><p>Reached and helped 1Cr+ Beneficiaries</p></span>
+          <span><p>Made the data schema compatible for Research Purpose</p></span>
+          <span><p>Easily import the NMK data to this data</p></span>
+        </div>
+      </div>
 
       <div className="guideline">
         <div className="guideline-container">
-          <h1 className="guidelines-head">Guidelines</h1>
+          <h1 className="guidelines-head">Services</h1>
           <ol className="text">
             <div className="lorem">
               <li>

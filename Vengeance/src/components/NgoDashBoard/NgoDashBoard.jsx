@@ -6,24 +6,24 @@ function NgoDashBoard(){
    return(
     <div className="dashbody">
     <div className="dashupperbody">
-       <p>WELCOME USER</p>
+       <p>WELCOME Nasha Mukti Kendra</p>
     </div>
     <div className="dashlowerbody">
        <div className="outercontainer">
        <div className="container-c1">
-          <Link to="/NgoDashActions"><div className="eliment"><button>add</button> </div></Link>
-          <div className="eliment"><button>update</button> </div>
-          <div className="eliment"><button>delete</button> </div>
+          <Link to="/NgoDashActions"><div className="eliment"><button>Add</button> </div></Link>
+          <div className="eliment"><button style={{backgroundColor:"orange"}}>Test</button> </div>
+          <div className="eliment"><button>Delete</button> </div>
        </div>
        <div className="container-c2">
-          <div className="eliment"><button>track</button> </div>
-          <div className="eliment"><button>event</button> </div>
-          <div className="eliment"><button>galary</button> </div>
+          <div className="eliment"><button>Track</button> </div>
+          <div className="eliment"><button>Event</button> </div>
+          <div className="eliment"><button>Gallery</button> </div>
        </div>
        <div className="container-c3">
-          <div className="eliment"><button>profile</button> </div>
-          <div className="eliment"><button>feedback</button> </div>
-          <div className="eliment"><button>under construction</button> </div>
+          <div className="eliment"><button>Profile</button> </div>
+          <div className="eliment"><button>Feedback</button> </div>
+          <div className="eliment"><button>Under Construction</button> </div>
        </div>
        </div>
     </div>

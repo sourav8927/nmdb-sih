@@ -61,7 +61,7 @@ function App() {
           <Route path ="/AboutUs" element={
             <Aboutus />
           }/>
-          <Route path = "/UsderLandingPage" element={
+          <Route path = "/UserLandingPage" element={
             <Login />
           }/>
       </Routes>

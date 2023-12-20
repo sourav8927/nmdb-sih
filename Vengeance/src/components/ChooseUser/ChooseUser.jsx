@@ -13,19 +13,21 @@ function ChooseUser() {
             <div className="cu-buttons-div">
                 <span className='cu-buttons-div-span'>
                     <p><FaUserFriends /></p>
-                    <Link to="/LoginUser">
+                    
                         <button className='Citizenbtn'>Citizen</button>
-                    </Link>
+                    
                 </span>
                 <span className='cu-buttons-div-span'>
                     <p><FaBuildingNgo /></p>
-                    <Link to="/NgoRegisterPage">
+                    <Link to="/loginUser">
                     <button className='Ngobtn'>NGO</button>
                     </Link>
                 </span>
                 <span className='cu-buttons-div-span'>
                     <p><MdAdminPanelSettings /></p>
-                    <button className='Adminbtn'>Admin</button>
+                    <Link to="/loginUser">
+                        <button className='Adminbtn'>Admin</button>
+                    </Link>
                 </span>
             </div>
         </div>
