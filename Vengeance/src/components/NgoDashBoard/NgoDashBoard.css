@@ -25,17 +25,16 @@
   
 }
 
-.eliment{
-  width: 20vw;
-  padding: 6px;
-  height: 15vh;
-  margin: 5px;
-  border-radius: 30px;
-  background-color: violet;
-}
 
-.eliment p{
+
+.eliment button{
   margin-left: 34px;
+  width: 10em;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  background-color: aquamarine;
+
 }
 .outercontainer{
   display: flex;
