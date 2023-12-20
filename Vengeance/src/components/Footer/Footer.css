@@ -44,6 +44,8 @@ ul {
 .footer-logo {
   margin-bottom: 30px;
 }
+
+
 .footer-logo-box{
     display: flex;
     flex-direction: row;

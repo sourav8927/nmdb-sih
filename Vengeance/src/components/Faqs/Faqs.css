@@ -1,7 +1,9 @@
 .faqStyling{
     padding: 1rem;
     border-radius: 1rem;
-    background-color: #A020F0;
-    margin: 2rem;  
+    background-color: rgb(255, 237, 255);
+    margin: 2rem;
+    border: 1px solid #a340f0;
+    box-shadow: 2px 2px 5px #3d3d3d75;
 }
 
