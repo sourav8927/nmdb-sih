@@ -33,3 +33,9 @@
     flex-direction: column;
     margin-left: 40px;
 }
+.lc-cm{
+    margin: 20px;
+    font-weight: 500;
+    font-size: large;
+    
+}
