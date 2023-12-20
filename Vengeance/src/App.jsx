@@ -16,6 +16,7 @@ import NgoDashBoard from './components/NgoDashBoard/NgoDashBoard';
 import userlandingpage from './components/User Landing Page/user-landing-page';
 import Events from './components/Events/Events';
 import NgoDashActions from './components/NgoDashActions/NgoDashActions';
+import Ngoinformation from './components/NgoInformation/ngoinformation';
 import TestServer from './components/TestServer/TestServer'
 
 function App() {
@@ -68,6 +69,10 @@ function App() {
           <Route path = "/UserLandingPage" element={
             <Login />
           }/>
+          <Route path = "/Ngoinformation" element={
+            <Ngoinformation />
+          }/>
+          
       </Routes>
       <Footer />
       </BrowserRouter>
