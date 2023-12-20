@@ -13,7 +13,7 @@ function Login() {
           <span>Using your Affiliation ID and Password</span>
           <input type="text" placeholder="Affiliation ID" />
           <input type="password" placeholder="Password" />
-          <Link to="/NgoDashBoard"><button className="signinbtn">Sign In</button></Link>
+          <Link to="/testServer"><button className="signinbtn">Sign In</button></Link>
           {/* <div className="dont-have-acc">
             <p>Don't have account? &nbsp;</p>
             <Link to="/registerPage"><p>Register Yourself<WiDirectionUpRight /></p></Link>
