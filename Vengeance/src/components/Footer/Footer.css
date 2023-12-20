@@ -3,7 +3,7 @@ ul {
     padding: 0px;
 }
 .footer-section {
-  background: #bf40bf;
+  background: #A020F0;
   position: relative;
 }
 .footer-cta {
@@ -141,7 +141,7 @@ ul {
   transform: rotate(-6deg);
 } */
 .copyright-area{
-  background: #a020f0;
+  background: #300947;
   padding: 25px 0;
 
 }
@@ -162,7 +162,7 @@ ul {
 } */
 .footer-menu li a {
   font-size: 14px;
-  color: #0c0908;
+  color: #eee5f9;
 }
 
 @media (max-width: 1372px) {

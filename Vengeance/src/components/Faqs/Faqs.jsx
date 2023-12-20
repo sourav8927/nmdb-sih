@@ -33,7 +33,7 @@ export default function Faqs() {
     };
 
     const styles = {
-        bgColor: "#BF40BF", 
+        bgColor: "#A020F0", 
         titleTextColor: "black",
         rowTitleColor: "black",
         rowContentColor: 'black', 

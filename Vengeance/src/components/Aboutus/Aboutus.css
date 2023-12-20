@@ -5,7 +5,8 @@
     padding: 1rem;
     margin: 0;
     color: #331A00;
-    border-bottom: 2px solid ;
+    /* border-bottom: 2px solid ; */
+    text-decoration: underline;
     width: max-content;
     align-self: center;
 }

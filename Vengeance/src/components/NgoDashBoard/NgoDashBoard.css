@@ -1,21 +1,47 @@
 .dashbody{
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  height: 100vh;
 }
 
 .dashupperbody{
-    background-color: darkkhaki;
-    width: 90vw;
-    height: 20vh;
-}
-.dashlowerbody{
-    background-color: rgb(107, 189, 156);
-    width: 90vw;
-    height: 20vh;
+  border-radius: 20px;
+  /* margin-left: 600px; */
+  padding: 20px;
+  width: 20vw;
+  height: 10vh;
+  text-align: center;
+  font-size: 25px;
 }
 
 .outercontainer{
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  /* width: 90vw; */
+  height: 20vh;
+  margin-top: 50px;
+  
 }
-.container{
-    display: flex;
+
+.eliment{
+  width: 20vw;
+  padding: 6px;
+  height: 15vh;
+  margin: 5px;
+  border-radius: 30px;
+  background-color: violet;
+}
+
+.eliment p{
+  margin-left: 34px;
+}
+.outercontainer{
+  display: flex;
+}
+.container-c1,.container-c2,.container-c3{
+  display: flex;
+  margin: 5px;
+  
 }

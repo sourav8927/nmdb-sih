@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Faqs from './components/Faqs/Faqs';
 import Socials from './components/Socials/Socials';
 import Login from './components/Login/Login';
-import Maps from './components/Maps/Maps';
 import PhotoSlider from './components/PhotoSlider/PhotoSlider';
 import Footer from "./components/Footer/Footer";
 import Aboutus from "./components/Aboutus/Aboutus";
@@ -14,8 +13,9 @@ import Register from './components/Register/Register';
 import LocateCenter from './components/LocateCenter/LocateCenter';
 import NgoRegistration from './components/NgoRegistration/NgoRegistration';
 import NgoDashBoard from './components/NgoDashBoard/NgoDashBoard';
-import UserLandingPage from './components/User Landing Page/user-landing-page';
-
+import userlandingpage from './components/User Landing Page/user-landing-page';
+import Events from './components/Events/Events';
+import NgoDashActions from './components/NgoDashActions/NgoDashActions';
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
           <Route path = "/" element={
             <>
               <PhotoSlider />
+              <Events />
               <Aboutus/>
               <Socials/>
               <Faqs/>
@@ -50,6 +51,9 @@ function App() {
           }/>
           <Route path="/NgoDashBoard" element={
             <NgoDashBoard/>
+          }/>
+          <Route path="/NgoDashActions" element={
+            <NgoDashActions/>
           }/>
           <Route path = "/Cuser" element={
             <ChooseUser />

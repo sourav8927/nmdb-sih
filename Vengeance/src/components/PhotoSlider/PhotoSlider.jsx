@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './PhotoSlider.css'
 import { motion } from "framer-motion"
 
@@ -34,6 +34,10 @@ function PhotoSlider() {
     const [imgId, setImgId] = useState(0);
     const [dir, setDir] = useState(0);
     let imglink = new URL(corousel[imgId].url, import.meta.url).href;
+
+    const timerId = setInterval(() => {
+        incImgId();
+      }, 6000);
 
     const decImgId = () => {
         setDir(-1);

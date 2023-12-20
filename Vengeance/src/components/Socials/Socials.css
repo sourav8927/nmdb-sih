@@ -36,7 +36,7 @@
     transform: rotate(180deg);
     writing-mode: vertical-lr;
     width: 3rem;
-    border-radius: 0px 20px 20px 0px ;
+    border-radius: 0px 1rem 1rem 0px ;
     color: antiquewhite
 }
 
@@ -48,7 +48,7 @@
     transform: rotate(180deg);
     writing-mode: vertical-lr;
     width: 3rem;
-    border-radius: 0px 20px 20px 0px ;
+    border-radius: 0px 1rem 1rem 0px ;
     color: antiquewhite
 }
 .s-facebook{
@@ -56,14 +56,14 @@
 }
 
 .ig-tag{
-    background-color: #bc2a8d;
+    background-color: #A020F0;
     display: flex;
     justify-content: center;
     align-items: center;
     transform: rotate(180deg);
     writing-mode: vertical-lr;
     width: 3rem;
-    border-radius: 0px 20px 20px 0px ;
+    border-radius: 0px 1rem 1rem 0px ;
     color: antiquewhite
 }
 
