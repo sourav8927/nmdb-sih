@@ -16,8 +16,9 @@ import NgoDashBoard from './components/NgoDashBoard/NgoDashBoard';
 import userlandingpage from './components/User Landing Page/user-landing-page';
 import Events from './components/Events/Events';
 import NgoDashActions from './components/NgoDashActions/NgoDashActions';
-import Ngoinformation from './components/NgoInformation/ngoinformation';
+import Ngoinformation from './components/NgoInformation/Ngoinformation';
 import TestServer from './components/TestServer/TestServer'
+
 
 function App() {
   return (
