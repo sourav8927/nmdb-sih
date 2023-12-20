@@ -6,12 +6,14 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     position: relative;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
     width: 400px;
-    margin-top: 100px ;
-    margin-left: 550px;
-    margin-bottom: 100px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     border: 2px solid #A020F0;
-    border-radius: 10%;
+    border-radius: 2rem;
     min-height: 480px;
 }
 
@@ -25,33 +27,6 @@
 .Login-container span{
     font-size: 1.2rem;
 }
-
-/* .Login-container a{
-    color: #333;
-    font-size: 1rem;
-    text-decoration: none;
-    margin: 15px 0 10px;
-} */
-
-.Login-container button{
-    background-color: #A020F0;
-    color: #fff;
-    font-size: 1rem;
-    padding: 10px 45px;
-    border: 1px solid transparent;
-    border-radius: 8px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.Login-container button.hidden{
-    background-color: transparent;
-    border-color: #fff;
-}
-
 
 .Login-container form{
     background-color:#fff;
@@ -77,25 +52,18 @@
 
 .form-container{
     background-color:  #fff;
-    position: absolute;
+    position: relative;
     top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0px;
-    width: 3000px;
     height: 100%;
     transition: all 0.6s ease-in-out;
 }
  
 .dont-have-acc{
     display: flex;
-}
-
-.sign-in{
-    left: 0;
-    width: 100%;
-    z-index: 2;
 }
 
 .social-icons{

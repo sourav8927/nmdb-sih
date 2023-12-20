@@ -24,33 +24,99 @@
 
 .dd{
     margin: 2rem;
-    border: 2px solid ;
+    border: 2px solid #a340f0;
     height: 15rem;
     width: 15rem;
     border-radius: 1.7rem;
-    color: white;
+    color: black;
+    padding: 2rem;
     /* background-color: black; */
-    text-shadow: 0px 0px 4px #000000;
-    box-shadow: 3px 4px 3px #ffc7ff;
+    box-shadow: 2px 2px 5px #3d3d3d75;
     transition: 0.4s ease-in-out;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .dd:hover{
-    background-color: #ffdcff;
+    background-color: #a340f0;
+}
+
+.d1{
+    background-color: #a340f0;
 }
 
 .dd h2{
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    /* justify-content: center; */
     /* background: #000; */
     /* color: black; */
     padding: auto; 
+    font-size: 1.2rem;
+}
+
+.dd p{
+    font-size: 2rem;
+}
+
+.dd h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Analytics-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Analytics-head h2{
+    font-size: 3rem;
+    border-bottom: 2px solid black;
+    padding-bottom: 1rem;
+}
+
+.Analytics{
+    /* background-color: rgba(0, 0, 0, 0.358); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Analytics span{
+    border: 2px solid #a340f0;
+    width: 20rem;
+    height: 20rem;
+    margin: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.582);
+    color: whitesmoke;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+.Analytics span:nth-child(1){
+    background-color: rgb(36, 107, 205);
+}
+
+.Analytics span:nth-child(2){
+    background-color: rgb(52, 199, 77);
+}
+
+.Analytics span:nth-child(3){
+    background-color: rgb(200, 50, 50);
+    border: 1px solid black;
+  
 }
 
 .guideline{

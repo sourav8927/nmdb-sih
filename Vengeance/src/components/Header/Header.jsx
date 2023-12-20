@@ -3,7 +3,8 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
-// import LoginPng from "./img/login.png";
+import logo from "../../assets/logo/logo1-light.png";
+import logoD from "../../assets/logo/logo1.png" 
 
 function Header() {
 
@@ -17,7 +18,7 @@ function Header() {
             <header className="header">
                 <div className="mini-header">
                     <div className="mini-logo">
-                        <img src="logo.png" alt="Logo" />
+                        <img src={logo} alt="Logo" />
                     </div>
                     <div className="zoom-lang">
                         <div className="zoom">
@@ -32,7 +33,11 @@ function Header() {
                 </div>
                 <div className="main-header">
                     <div className="logo">
-                        <img className="logo-img" src="img/logo.png" alt="Logo" />
+                        <img className="logo-img" src={logoD} alt="Logo" />
+                        <div className="name-tag">
+                            <h3>Kendriya Nasha Mukti Portal</h3>
+                            <p>A step towards Addiction free India</p>
+                        </div>
                     </div>
                     <nav className="nav-links">
                         <ul>
