@@ -12,7 +12,7 @@ function NgoDashBoard(){
        <div className="outercontainer">
        <div className="container-c1">
           <Link to="/NgoDashActions"><div className="eliment"><button>Add</button> </div></Link>
-          <div className="eliment"><button style={{backgroundColor:"orange"}}>Test</button> </div>
+          <div className="eliment"><Link to="/testServer"><button style={{backgroundColor:"orange"}}>Test</button></Link></div>
           <div className="eliment"><button>Delete</button> </div>
        </div>
        <div className="container-c2">
