@@ -16,9 +16,10 @@ import NgoDashBoard from './components/NgoDashBoard/NgoDashBoard';
 import userlandingpage from './components/User Landing Page/user-landing-page';
 import Events from './components/Events/Events';
 import NgoDashActions from './components/NgoDashActions/NgoDashActions';
+import Services from './components/Services/Services';
+import AdmDashboard from './components/AdmDashboard/AdmDashboard';
 import Ngoinformation from './components/NgoInformation/Ngoinformation';
 import TestServer from './components/TestServer/TestServer'
-
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Routes>
           <Route path = "/" element={
             <>
+              <AdmDashboard />
               <PhotoSlider />
               <Events />
               <Aboutus/>
@@ -69,6 +71,9 @@ function App() {
           }/>
           <Route path = "/UserLandingPage" element={
             <Login />
+          }/>
+          <Route path = "/Services" element={
+            <Services />
           }/>
           <Route path = "/Ngoinformation" element={
             <Ngoinformation />

@@ -43,7 +43,7 @@ function Header() {
                         <ul>
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/locateCentre">Locate Center</Link></li>
-                            <li><a href="#">Services</a></li>
+                            <Link to="/Services"><li><a href="#">Services</a></li></Link>
                             <li><Link to="/Dashboard">Dashboard</Link></li>
                             <li><a href="#">Contact</a></li>
                         </ul>

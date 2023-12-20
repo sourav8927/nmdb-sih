@@ -918,10 +918,15 @@ export default function Dashboard() {
             </div>
           </div>
           
-          <div className="c-name">Center Names
+          <div className="c-name">
+            <div className="center">
+              Center Names
+            </div>
+            <div className="c-para">
           <p className="g-para">
               Donec sit amet urna commodo, eleifend ligula ac, suscipit erat.
             </p>
+            </div>
           </div>
           
         </div>
