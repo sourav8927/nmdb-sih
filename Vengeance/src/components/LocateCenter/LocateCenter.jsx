@@ -37,8 +37,15 @@ function LocateCenter() {
        
       <div className="center-details">
         <div className="center1">
-          <p>Center Name</p>
-          <p>Address</p>
+          <p className='lc-cm'>Center Name: </p>
+          <p className='lc-cm'>Address: </p>
+        </div>
+      </div>
+
+      <div className="center-details">
+        <div className="center1">
+          <p className='lc-cm'>Center Name: </p>
+          <p className='lc-cm'>Address: </p>
         </div>
       </div>
     
