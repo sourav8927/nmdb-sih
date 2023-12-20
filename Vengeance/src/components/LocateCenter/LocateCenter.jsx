@@ -1,20 +1,17 @@
-import React from 'react'
+import React from 'react';
 import { useState } from 'react';
-import json from './indiaStatesAndDistricts.json'
-import "../LocateCenter/LocateCenter.css";
+import json from './indiaStatesAndDistricts.json';
+import '../LocateCenter/LocateCenter.css';
 
 function LocateCenter() {
-
   const [selectedState, setSelectedState] = useState();
-  const [selectedDistrict, setSelectedDistrict] = useState("select");
-
-  let availableState = [""];
+  const [selectedDistrict, setSelectedDistrict] = useState('select');
+  const [availableState, setAvailableState] = useState(null);
 
   function changeState(s) {
     setSelectedState(s);
-    console.log(selectedState);
-    availableState = json.states.find((s) => s.state === selectedState);
-    console.log(availableState);
+    const stateData = json.states.find((state) => state.state === s);
+    setAvailableState(stateData);
   }
 
   function changeDistrict(d) {
@@ -23,35 +20,29 @@ function LocateCenter() {
 
   return (
     <div>
-      <center><h1>Locate center</h1></center>
+      <center>
+        <h1>Locate center</h1>
+      </center>
       <div className="lc">
         <div className="lc-state">
           <p className='lc-p'>Select your state</p>
           <select className='opt' value={selectedState} onChange={(e) => changeState(e.target.value)}>
-            {
-              json.states.map((value, key) => {
-                return (
-                  <option value={value.state} key={key}>
-                    {value.state}
-                  </option>
-                )
-              })
-            }
+            {json.states.map((value, key) => (
+              <option value={value.state} key={key}>
+                {value.state}
+              </option>
+            ))}
           </select>
         </div>
 
         <div className="lc-state">
           <p className='lc-p'>Select your district</p>
-          <select className='opt' value={selectedDistrict} onChange={(e) => setSelectedDistrict(e.target.value)}>
-            {/* {
-              availableState.districts.map((value,key) => {
-                return (
-                  <option value={value.districts} key={key}>
-                      {value.districts}
-                  </option>
-                )
-              })
-            } */}
+          <select className='opt' value={selectedDistrict} onChange={(e) => changeDistrict(e.target.value)}>
+            {availableState?.districts.map((value, key) => (
+              <option value={value} key={key}>
+                {value}
+              </option>
+            ))}
           </select>
         </div>
       </div>
@@ -69,10 +60,8 @@ function LocateCenter() {
           <p className='lc-cm'>Address: </p>
         </div>
       </div>
-
     </div>
-  )
-
+  );
 }
 
 export default LocateCenter;
