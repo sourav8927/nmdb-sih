@@ -17,6 +17,7 @@ import userlandingpage from './components/User Landing Page/user-landing-page';
 import Events from './components/Events/Events';
 import NgoDashActions from './components/NgoDashActions/NgoDashActions';
 import Services from './components/Services/Services';
+import AdmDashboard from './components/AdmDashboard/AdmDashboard';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Routes>
           <Route path = "/" element={
             <>
+              <AdmDashboard />
               <PhotoSlider />
               <Events />
               <Aboutus/>
