@@ -13,7 +13,9 @@ import Register from './components/Register/Register';
 import LocateCenter from './components/LocateCenter/LocateCenter';
 import NgoRegistration from './components/NgoRegistration/NgoRegistration';
 import NgoDashBoard from './components/NgoDashBoard/NgoDashBoard';
-
+import userlandingpage from './components/User Landing Page/user-landing-page';
+import Events from './components/Events/Events';
+import NgoDashActions from './components/NgoDashActions/NgoDashActions';
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
           <Route path = "/" element={
             <>
               <PhotoSlider />
+              <Events />
               <Aboutus/>
               <Socials/>
               <Faqs/>
@@ -49,11 +52,17 @@ function App() {
           <Route path="/NgoDashBoard" element={
             <NgoDashBoard/>
           }/>
+          <Route path="/NgoDashActions" element={
+            <NgoDashActions/>
+          }/>
           <Route path = "/Cuser" element={
             <ChooseUser />
           }/>
           <Route path ="/AboutUs" element={
             <Aboutus />
+          }/>
+          <Route path = "/UsderLandingPage" element={
+            <Login />
           }/>
       </Routes>
       <Footer />

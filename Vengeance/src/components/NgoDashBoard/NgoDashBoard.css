@@ -1,0 +1,46 @@
+.dashbody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  height: 100vh;
+}
+
+.dashupperbody{
+  border-radius: 20px;
+  /* margin-left: 600px; */
+  padding: 20px;
+  width: 20vw;
+  height: 10vh;
+  text-align: center;
+  font-size: 25px;
+}
+
+.outercontainer{
+  display: flex;
+  flex-direction: column;
+  /* width: 90vw; */
+  height: 20vh;
+  margin-top: 50px;
+  
+}
+
+
+
+.eliment button{
+  margin-left: 34px;
+  width: 10em;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  background-color: aquamarine;
+
+}
+.outercontainer{
+  display: flex;
+}
+.container-c1,.container-c2,.container-c3{
+  display: flex;
+  margin: 5px;
+  
+}

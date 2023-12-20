@@ -161,3 +161,48 @@
     margin: 1rem;
 }
 
+.d-info{
+    background-color:aquamarine;
+    display: flex;
+    width: 50vw;
+    gap: 2rem;
+    border-radius: 2rem;
+    justify-content:space-evenly;
+    margin: 2rem;
+}
+
+.d-stats{
+    font-size:xx-large;
+}
+
+.c-name{
+    font-size: xx-large;
+}
+
+.d-stats .g-para{
+    background-color: brown;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    font-size:x-large;
+    padding: 7px;
+}
+
+ .g-para{
+    background-color: rgb(185, 124, 124);
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    font-size:x-large;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.stat{
+    margin: 18px 18px 0 95px;
+}
+.para{
+    margin: 10px;
+    padding: 15px;
+    
+}
