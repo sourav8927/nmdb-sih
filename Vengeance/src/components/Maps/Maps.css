@@ -11,8 +11,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* border: 2px solid red; */
+    border: 2px solid #a340f0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.611);
+    border-radius: 2rem;
+    background-color: #d5baff;
     margin: 2rem;
+    flex-direction: column;
 }
 
 .map-details{
@@ -25,8 +29,8 @@
 }
 
 .map-Maps{
-    height: 500px;
-    width: 400px;
+    height: 600px;
+    width: 450px;
     padding: 2rem;
     display: flex;
     justify-content: center;

@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Footer.css";
 import Ashok from "../../assets/logo/ashok_stombh.png";
+import Logo from "../../assets/logo/logo1.png"
 import Appimg from "../../assets/images/Nmba_app.jpg";
 import { Link } from "react-router-dom";
 function Footer()
@@ -17,10 +18,10 @@ function Footer()
                         <div className="footer-widget">
                             <div className="footer-logo-box">
                                 <div className="footer-logo">
-                                    <a href="index.html"><img src={Ashok} className="img-fluid" alt="logo" /></a>
+                                    <a href="#"><img src={Ashok} className="img-fluid" alt="logo" /></a>
                                 </div>
                                 <div className="footer-logo">
-                                    <a href="index.html"><img src={Ashok} className="img-fluid" alt="logo" /></a>
+                                    <a href="#"><img src={Logo} className="img-fluid " alt="logo" /></a>
                                 </div>
                             </div>
                             <div className="footer-text">

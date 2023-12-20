@@ -10,14 +10,14 @@ function Login() {
       <div className="form-container sign-in">
         <form>
           <h1>Sign In</h1>
-          <span>Using your Email ID and Password</span>
-          <input type="email" placeholder="Email" />
+          <span>Using your Affiliation ID and Password</span>
+          <input type="text" placeholder="Affiliation ID" />
           <input type="password" placeholder="Password" />
-          <button className="signinbtn">Sign In</button>
-          <div className="dont-have-acc">
+          <Link to="/NgoDashBoard"><button className="signinbtn">Sign In</button></Link>
+          {/* <div className="dont-have-acc">
             <p>Don't have account? &nbsp;</p>
             <Link to="/registerPage"><p>Register Yourself<WiDirectionUpRight /></p></Link>
-          </div>
+          </div> */}
         </form>
       </div>
     </div>
