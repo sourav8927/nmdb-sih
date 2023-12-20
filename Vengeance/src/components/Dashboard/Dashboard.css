@@ -62,7 +62,7 @@
     width: 50vw;
     padding: 1rem;
     /* display: flex; */
-    background-color: aqua;
+    background-color: #A020F0;
     margin: 2rem;
     border-radius: 2rem;
 }
@@ -75,13 +75,20 @@
 
 .g-button{
     border-radius: 0.9rem;
-    background-color:#ebc5eb;
+    background-color:#A020F0;
     border: 2px solid white ;
     display: flex;
     justify-content:center;
     width: 6rem;
+    box-shadow: 3px 4px 3px #5b0591;
     
 }
+
+.g-button:hover{
+    background-color: #bb53fc ;
+    transition: 0.4s ease-in-out;
+}
+
 .text{
     display: flex;
     flex-direction: column;
@@ -96,7 +103,7 @@
 }
 
 .d-info{
-    background-color:aquamarine;
+    background-color:#A020F0;
     display: flex;
     width: 50vw;
     gap: 2rem;
@@ -114,7 +121,7 @@
 }
 
 .d-stats .g-para{
-    background-color: brown;
+    background-color: #c4a2d8;
     display: flex;
     /* justify-content: center; */
     flex-direction: row;
@@ -123,7 +130,7 @@
 }
 
  .g-para{
-    background-color: rgb(185, 124, 124);
+    background-color: rgb(123, 228, 176);
     display: flex;
     /* justify-content: center; */
     flex-direction: row;
@@ -132,10 +139,10 @@
     padding: 7px;
 }
 
-.stat{
+.stat, .center{
     margin: 18px 18px 0 95px;
 }
-.para{
+.para, .c-para{
     margin: 10px;
     padding: 15px;
     

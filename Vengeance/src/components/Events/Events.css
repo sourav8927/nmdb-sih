@@ -9,7 +9,6 @@
 }
 
 .event-container{
-    /* background-color: aquamarine; */
     display: flex;
     justify-content: space-evenly;
     /* flex-direction: row; */
@@ -17,23 +16,41 @@
 }
 
 .event-title{
-    background-color: aqua;
+    background-color: rgb(255, 237, 255);
+    color: rgb(39, 39, 39);
     height: 20rem;
     width: 18rem;
     display: flex;
     justify-content: center;
     align-items: end;
     padding: 0.7rem;
-    border-radius: 2rem;
 
+    border-radius: 2rem;
+    border: 2px solid blueviolet ;
+    box-shadow: 3px 4px 6px #78439a;
+    /* height: 10rem; */
+    
 }
 
 .e-button{
     display: flex;
     justify-content: center;
-    
+    margin-bottom: 2rem;
 }
 
 .event-button{
     border-radius: 1rem;
+    background-color: blueviolet;
+    /* background-color: aquamarine; */
 }
+
+.event-button:hover{
+    background-color: green;
+    transition: 0.4s ease-in-out;
+}
+
+.e1-container{
+    display: flex;
+    flex-direction: column;
+}
+.e1-title
