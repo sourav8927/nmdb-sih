@@ -5,6 +5,7 @@ import { MdLiquor } from "react-icons/md";
 import { FaSmoking } from "react-icons/fa";
 import { GiMapleLeaf, GiLoveInjection, GiFireFlower } from "react-icons/gi";
 import { useState } from "react";
+import { FaLocationCrosshairs } from "react-icons/fa6";
 
 export default function Dashboard() {
   const [state, setState] = useState("India");
@@ -405,6 +406,10 @@ export default function Dashboard() {
   const currStateArr = stateDetails.find((s) => s.name === state);
   console.log(currStateArr);
 
+  const setStateToIndia = ()=>{
+      setState("India")
+  }
+
   return (
     <>
       <h1 className="dashboard-head">Dashboard</h1>
@@ -790,9 +795,11 @@ export default function Dashboard() {
           </div>
         </div>
         <div className="d-container">
-          <div className="d1 dd">
-            <h2>Area:</h2>
+          <div className="d1 dd" onClick={setStateToIndia}>
+            <p><FaLocationCrosshairs/></p>
+            <h2> Region:</h2>
             <h3>{currStateArr.name}</h3>
+            <p className="sel-ind">Click here for India</p>
           </div>
           <div className="d2 dd">
             <p> <MdLiquor /></p>

@@ -35,10 +35,6 @@ function PhotoSlider() {
     const [dir, setDir] = useState(0);
     let imglink = new URL(corousel[imgId].url, import.meta.url).href;
 
-    const timerId = setInterval(() => {
-        incImgId();
-      }, 6000);
-
     const decImgId = () => {
         setDir(-1);
         if (imgId == 0) {

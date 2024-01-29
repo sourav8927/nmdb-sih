@@ -13,7 +13,7 @@
     align-items: center;
     border: 2px solid #a340f0;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.611);
-    border-radius: 2rem;
+    border-radius: 1rem;
     background-color: #d5baff;
     margin: 2rem;
     flex-direction: column;
@@ -51,17 +51,18 @@
 }
 
 .map-Maps svg path:hover{
-    fill: rgb(0, 137, 98);
+    fill: #45a049;
     transition: 0.6s;
     cursor: pointer;
 }
 
 .active{
-    fill: green;
-    z-index: 50;
-    filter: drop-shadow(2px 2px 10px black);
+    fill: #45a049;
+    z-index: 5000;
+    filter: drop-shadow(0px 0px 10px black);
 }
 
 .inactive{
-    fill: red;
+    fill: rgb(255, 75, 75);
+    z-index: 200;
 }

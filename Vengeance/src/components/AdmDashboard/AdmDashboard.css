@@ -1,26 +1,3 @@
-.ad-head{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    font-size: 3.5rem;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-.ad-container{
-    margin: 2rem;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 2rem;
-    /* background-color: blue; */
-    padding: 2rem;
-}
-
-.ad-content{
-    /* background-color: aqua; */
-    height: 20rem;
-    width: 20rem;
-    border-radius: 2rem;
-    border: 4px solid  #A020F0;
-    box-shadow: 5px 6px 5px #0000006a;
+.AdmDashboard{
+    height: 120vh;
 }

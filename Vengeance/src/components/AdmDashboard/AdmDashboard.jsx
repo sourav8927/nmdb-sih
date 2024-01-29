@@ -1,22 +1,15 @@
 import React from 'react'
 import "./AdmDashboard.css"
+import Header from '../Header/Header'
+import Dashboard from '../Dashboard/Dashboard'
 
 function AdmDashboard() {
   return (
     <>
-      <div className='ad-head'>Admin Dashboard</div>
-      <div className="ad-container">
-          <div className="ad-content">
+      <Header isLoggedIn="false" />
+      < Dashboard />
+      <div className="AdmDashboard">
 
-          </div>
-          
-          <div className="ad-content">
-
-          </div>
-          
-          <div className="ad-content">
-
-          </div>
       </div>
     </>
   )

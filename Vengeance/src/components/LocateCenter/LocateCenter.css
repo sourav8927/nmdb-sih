@@ -75,8 +75,8 @@
     border-radius: 30px;
     transition: .4s;
 }
-button:hover{
+/* button:hover{
     background-color: transparent;
     border: 2px solid;
     cursor: pointer;
-}
+} */
