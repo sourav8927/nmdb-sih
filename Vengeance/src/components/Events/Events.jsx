@@ -10,9 +10,9 @@ export default function Events() {
         <div className="e1-container">
             <div className="e1-title">
                 <h5 className="event-title">Event 1</h5>
-            </div>
             <div className="e-button">
                 <button className="event-button">View More</button>
+            </div>
             </div>
         </div>
 

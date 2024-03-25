@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 
 .Login-container{
     background-color: #fff;
@@ -60,6 +60,7 @@
     padding: 0px;
     height: 100%;
     transition: all 0.6s ease-in-out;
+    /* box-shadow: none; */
 }
  
 .dont-have-acc{

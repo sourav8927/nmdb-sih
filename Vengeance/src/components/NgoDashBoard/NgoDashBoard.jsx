@@ -1,5 +1,7 @@
 import "./NgoDashBoard.css"
 import { Link } from "react-router-dom";
+import AdmDashboard from "../AdmDashboard/AdmDashboard";
+import LocateCenter from "../LocateCenter/LocateCenter";
 
 function NgoDashBoard(){
   
@@ -8,11 +10,12 @@ function NgoDashBoard(){
     <div className="dashupperbody">
        <p>WELCOME Nasha Mukti Kendra</p>
     </div>
+    <AdmDashboard />
     <div className="dashlowerbody">
        <div className="outercontainer">
        <div className="container-c1">
-          <Link to="/NgoDashActions"><div className="eliment"><button>Add</button> </div></Link>
-          <div className="eliment"><button style={{backgroundColor:"orange"}}>Test</button> </div>
+          <Link to="/NgoDashActions"><div className="eliment"><button>Modify</button> </div></Link>
+          <div className="eliment"><Link to="/testServer"><button style={{backgroundColor:"orange"}}>Add</button></Link></div>
           <div className="eliment"><button>Delete</button> </div>
        </div>
        <div className="container-c2">
@@ -26,6 +29,7 @@ function NgoDashBoard(){
           <div className="eliment"><button>Under Construction</button> </div>
        </div>
        </div>
+       <LocateCenter/>
     </div>
  </div>
    )

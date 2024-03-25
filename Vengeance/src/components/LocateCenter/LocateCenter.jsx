@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
 import { useState } from 'react';
 import json from './indiaStatesAndDistricts.json'
 import "../LocateCenter/LocateCenter.css";
+import {Link} from "react-router-dom";
 
 function LocateCenter() {
 
@@ -12,18 +13,14 @@ function LocateCenter() {
 
   function changeState(s) {
     setSelectedState(s);
-    console.log(selectedState);
-    availableState = json.states.find((s) => s.state === selectedState);
-    console.log(availableState);
+    const stateData = json.states.find((state) => state.state === s);
+    setAvailableState(stateData);
   }
-
-  function changeDistrict(d) {
-    setSelectedDistrict(d);
-  }
-
   return (
-    <div>
-      <center><h1>Locate center</h1></center>
+    <div className='LClc'>
+      <center>
+        <h1>Locate center</h1>
+      </center>
       <div className="lc">
         <div className="lc-state">
           <p className='lc-p'>Select your state</p>
@@ -55,6 +52,36 @@ function LocateCenter() {
           </select>
         </div>
       </div>
+      <center> <button className="lct-btn">Search</button></center>
+        <table>
+    <thead>
+      <tr>
+        <th>Center Name</th>
+        <th>Address</th>
+        <th>Beneficiary Number</th>
+        <th>Recovered</th>
+        <th>View Deatils</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Center 1</td>
+        <td>123 Main Street, Cityville</td>
+        <td>100</td>
+        <td>29</td>
+        <td><Link to="/Ngoinformation"><button className="lct-btn">View</button></Link></td>
+      </tr>
+      <tr>
+        <td>Center 2</td>
+        <td>456 Oak Avenue, Townsville</td>
+        <td>300</td>
+        <td>220</td>
+        <td><Link to="/Ngoinformation"><button className="lct-btn">View</button></Link></td>
+      </tr>
+   
+    </tbody>
+  </table>
 
       <div className="center-details">
         <div className="center1">
@@ -71,8 +98,7 @@ function LocateCenter() {
       </div>
 
     </div>
-  )
-
+  );
 }
 
 export default LocateCenter;

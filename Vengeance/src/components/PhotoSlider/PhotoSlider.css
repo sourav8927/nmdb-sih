@@ -59,7 +59,8 @@
 }
 
 .ps-action-butt:hover{
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    background-color: #ffffff3c;
     border: 2px solid rgba(141, 141, 141, 0.733);
     border-radius: 5px;
 }

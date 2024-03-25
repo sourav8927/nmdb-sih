@@ -16,15 +16,19 @@ import NgoDashBoard from './components/NgoDashBoard/NgoDashBoard';
 import userlandingpage from './components/User Landing Page/user-landing-page';
 import Events from './components/Events/Events';
 import NgoDashActions from './components/NgoDashActions/NgoDashActions';
+import Services from './components/Services/Services';
+import AdmDashboard from './components/AdmDashboard/AdmDashboard';
+import Ngoinformation from './components/NgoInformation/Ngoinformation';
+import TestServer from './components/TestServer/TestServer'
 
 function App() {
   return (
     <div className='app'>
       <BrowserRouter>
-      <Header />
         <Routes>
           <Route path = "/" element={
             <>
+              <Header />
               <PhotoSlider />
               <Events />
               <Aboutus/>
@@ -34,39 +38,84 @@ function App() {
           } />
           <Route path = "/Dashboard" element={
             <>
+            <Header />
             <Dashboard />
             </>
           }/>
           <Route path = "/LoginUser" element={
+            <>
+            <Header />
             <Login />
+            </>
+          }/>
+          <Route path = "/testServer" element={
+            <>
+            <Header />
+            <TestServer />
+            </>
           }/>
           <Route path = "/locateCentre" element={
+           <>
+           <Header />
            <LocateCenter />
-          }/>
-          <Route path="/registerPage" element={
-            <Register/>
+           </>
           }/>
           <Route path="/NgoRegisterPage" element={
+            <>
+            <Header />
             <NgoRegistration/>
+            </>
           }/>
           <Route path="/NgoDashBoard" element={
+            <>
+            <Header />
             <NgoDashBoard/>
+            </>
           }/>
           <Route path="/NgoDashActions" element={
+            <>
+            <Header />
             <NgoDashActions/>
+            </>
           }/>
           <Route path = "/Cuser" element={
+            <>
+            <Header />
             <ChooseUser />
+            </>
           }/>
           <Route path ="/AboutUs" element={
+            <>
+            <Header />
             <Aboutus />
+            </>
           }/>
           <Route path = "/UserLandingPage" element={
+            <>
+            <Header />
             <Login />
+            </>
           }/>
+          <Route path = "/Services" element={
+            <>
+            <Header />
+            <Services />
+            </>
+          }/>
+          <Route path = "/Ngoinformation" element={
+            <>
+            <Header />
+            <Ngoinformation />
+            </>
+          }/>
+          <Route path = "/AdminDashboard" element={
+            <AdmDashboard/>
+          }/>
+          
       </Routes>
       <Footer />
       </BrowserRouter>
+
     </div>
   )
 }
